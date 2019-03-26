@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+body{
+	background-color: rgba(172, 215, 229, 1);
+}
+#remainContant{
+	background-color: white;
+	margin: 50px auto;
+	width: 600px;
+	height: 400px;
+}
+#rehead{
+	line-height: 35px;
+	border-bottom:1px solid gainsboro;
+}
+.relogin{float: right;text-decoration: none;
+	color: lightblue;}

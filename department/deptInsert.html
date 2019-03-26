@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>部门添加</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/right.css">
+	</head>
+	<body>
+		<form name="userInsert" action="" method="post">
+			<div>
+				<div id="header"><span id="msg">位置：</span>用户管理&gt;添加用户</div>
+			<div class="formbody">
+    			<div class="formtitle"><span>基本信息</span></div>
+    			<ul class="forminfo">
+    				<li>
+      					<label>部门编号 <font color="red">*</font></label>
+      					</label><input name="" type="text" class="forminput" />
+    				</li>
+    				<li>
+    					<label>部门名称 <font color="red">*</font></label>
+      					<input name="" type="text" class="forminput" />
+    				</li>
+      				<li><label>负责人</label>
+						<select name="" class="scselect">
+							<option value="">--请选择--</option>
+							<option value="研发一部">余力</option>
+							<option value="研发二部">张娜</option>
+							<option value="研发三部">李四</option>
+						</select>
+					</li>
+					 <li>
+					 	<label>&nbsp;</label>
+					 	<input name="" type="button" class="btn" value="确认保存" onclick="saveButton()"/>
+					 </li>
+    			</ul>
+    		</div>
+    		</div>
+		</form>
+	</body>
+</html>

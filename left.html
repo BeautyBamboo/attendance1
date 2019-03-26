@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/left.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<script src="js/jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".title1").click(function(){
+					$(".menuson1").toggle();
+				});
+				$(".title2").click(function(){
+					$(".menuson2").toggle();
+				});
+				
+			});
+		</script>
+	</head>
+	<body id="left_body">
+		<div class="left_header"><span><img src="img/login/loginsj.png"></span>用户管理</div>
+		<div class="menu">
+			<ul>
+				<li>
+					<h3 class="title1"><span><img src="img/top_left/leftico01.png"></span>用户管理<span class="arrow"><img src="img/top_left/uew_icon_hover.png"></span></h3>
+					<ul class="menuson1">
+						<a href="right.html" target="rightframe"><li><span><img src="img/top_left/list.gif"></span>首页</li></a>
+						<a href="user/userSearch.html" target="rightframe"><li><span><img src="img/top_left/list.gif"></span>用户管理</li></a>
+					</ul>
+				</li>
+				<li>
+					<a href="department/deptSearch.html" target="rightframe"><h3 class="title"><span><img src="img/top_left/leftico01.png"></span>部门管理</h3></a>
+				</li>
+				<li>
+					<h3 class="title"><span><img src="img/top_left/leftico01.png"></span>个人信息修改</h3>
+				</li>
+				<li>
+					<h3 class="title"><span><img src="img/top_left/leftico01.png"></span>日报管理</h3>
+				</li>
+				<li>
+					<h3 class="title"><span><img src="img/top_left/leftico01.png"></span>加班管理</h3>
+				</li>
+				<li>
+					<h3 class="title"><span><img src="img/top_left/leftico01.png"></span>休假管理</h3>
+				</li>
+				<li>
+					<h3 class="title2"><span><img src="img/top_left/leftico01.png"></span>审批<span class="arrow"><img src="img/top_left/uew_icon_hover.png"></span></h3>
+					<ul class="menuson2">
+						<li><span><img src="img/top_left/list.gif"></span>加班审批</li>
+						<li><span><img src="img/top_left/list.gif"></span>休假审批</li>
+					</ul>
+				</li>
+				<li>
+					<h3 class="title"><span><img src="img/top_left/leftico01.png"></span>我的桌面</h3>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

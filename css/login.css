@@ -1,0 +1,89 @@
+﻿@CHARSET "UTF-8";
+#head{
+	height:30px;padding: 5px;background-color: #14547A;
+	text-indent: 10px;
+	font-size: small;
+	color: white;
+}
+body{
+	margin: 0px;
+}/* #contant1中的width：100%无法实现
+	解决办法：设置body中的margin属性为0即可
+* */
+.loginlogo{
+	margin:0px 0px 10px 550px;padding-top: 70px;
+}
+#maincontant{
+	border: 0px solid red;
+	background-image: url(../img/login/loginbg3.png);
+	background-color:#3089BC;
+	width:100%;
+	height: 600px;
+}
+#container{
+	margin-left:400px;
+	background-image: url(../img/login/logininfo.png);
+	width: 680px;
+	height: 310px;
+	overflow: hidden;/*解决margin塌陷问题*/
+}
+#con_login{
+	border: 0px solid red;
+	margin-left: 285px;
+	margin-top: 80px;
+	height: 180px;
+	width: 345px;
+}
+ul{
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+ul li{
+	margin-bottom: 20px;
+}
+.loginuser{
+	width:345px; 
+	height:48px;
+	background: url(../img/login/loginuser.png) no-repeat;
+	text-indent: 40px;
+	line-height: 48px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.loginpswd{
+	width:345px; 
+	height:48px;
+	background: url(../img/login/loginpassword.png) no-repeat;
+	text-indent: 40px;
+	line-height: 48px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.loginbutton{
+	background-image: url(../img/login/buttonbg.png);
+	width: 111px;
+	height: 35px;
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+a:link,a:visited{
+	display: block;
+	background: url(../img/login/buttonbg.png) no-repeat;
+	width: 111px;
+	height: 35px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	float: right;
+	text-align: center;
+	line-height: 35px;/*块级元素中的文字图片垂直居中，line-height设置成和height一样高度，
+	而vertical-align用于行内元素中的垂直居中，需要把display设置为table-cell的元素*/	
+}
+
+
+

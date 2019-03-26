@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+#left_body{
+	width: 190px;
+	height: 700px;
+	border-right: 1px solid rgba(182, 212, 222, 1);
+	text-indent: 7px;
+}
+.left_header{
+	background-color: #3D96C9;
+	line-height: 30px;
+	color: white;	
+}
+.left_header span{
+	margin-right: 5px;
+}
+.menu{
+	color: #000000;
+}
+.menu span{
+	margin-right: 5px;
+}
+.menu a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+.title,.title1,.title2{
+	font-family: "微软雅黑";
+	line-height: 40px;
+	background-color: rgba(211, 230, 239, 1);
+	border-bottom: 1px solid gainsboro;
+}
+.arrow{
+	float: right;
+}
+.menuson,.menuson1,.menuson2{
+	display:none ;
+	line-height: 35px;
+	background-color: rgba(239, 248, 252, 1);
+	list-style: none;
+}
+.menuson1 li:hover{
+	background-color: #3D96C9;
+}
+.menuson2 li:hover{
+	background-color: #3D96C9;
+}

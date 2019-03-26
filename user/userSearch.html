@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户管理</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/right.css">
+		<script src="js/jquery.js"></script>
+		<script>
+			$('#page').page({
+			current: 1, //当前页
+			showNum: 10, //当前显示条数
+			pageCount: 100, //后台返回的总数
+			callback: function(currentPage) {
+			//do something ...
+	}
+});
+		</script>
+	</head>
+	<body>
+		<form name="userSearch" action="" method="">
+		<div>
+			<div id="header"><span id="msg">位置：</span>用户管理</div>
+			<div id="search_main">
+				<ul class="sc_main">
+					<li><label>姓名</label><input type="text" name="username" class="scinput"></li>
+					<li><label>部门</label>
+						<select name="" class="scselect">
+							<option value="研发一部">研发一部</option>
+							<option value="研发二部">研发二部</option>
+							<option value="研发三部">研发三部</option>
+							<option value="测试">测试</option>
+						</select>
+					</li>
+					<li><label>&nbsp;</label><input type="button" name="" class="btn" value="查询"></li>
+				</ul>
+			</div>
+			<div class="tools">
+				<ul class="toolbar">
+					<li><a href="userInsert.html"><input type="button" name="" class="btn" value="添加"></a></li>
+					<li><input type="button" name="" class="btn" value="删除"></li>
+				</ul>
+			</div>
+				<table class="tablelist">
+					<thead>
+						<tr>
+						<th><input name="" type="checkbox" value="" checked="checked"/></th>
+                  		<th width="7%">工号<i class="sort"><img src="../img/right/px.gif" /></i></th>
+                  		<th width="11%">姓名</th>
+                  		<th width="10%">部门</th>
+                  		<th width="9%">职务</th>
+                  		<th width="5%">性别</th>
+                  		<th width="11%">手机</th>
+                  		<th width="10%">出生日期</th>
+                  		<th width="15%">邮箱</th>
+                  		<th width="15%">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input name="" type="checkbox" value=""/></td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><a href="userUpdate.html"><img src="../img/right/t02.png">修改</a>
+							<a href=""><img src="../img/right/t03.png">删除</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="page">
+				
+				</div>
+		</div>	
+	</body>
+</html>
