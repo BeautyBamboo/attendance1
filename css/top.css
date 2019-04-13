@@ -12,14 +12,14 @@
 	margin-left: 265px;
 	list-style: none;
 	width: 650px;
-	height: 95px;
+	height: 110px;
 	margin-top: 0px;
 	
 }
 .nav li{
 	float: left;
 	width: 100px;
-	height: 95px;
+	height: 110px;
 	
 }
 .nav li a:link,a:visited{
