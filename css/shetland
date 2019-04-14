@@ -1,0 +1,9 @@
+.nav{
+	height: 10%;
+}
+#main{
+	height: 90%;
+}
+#left_body{
+	height: 90%;
+}
