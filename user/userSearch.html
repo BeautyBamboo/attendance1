@@ -4,17 +4,8 @@
 		<title>用户管理</title>
 		<link rel="stylesheet" href="../css/reset.css">
 		<link rel="stylesheet" href="../css/right.css">
-		<script src="js/jquery.js"></script>
-		<script>
-			$('#page').page({
-			current: 1, //当前页
-			showNum: 10, //当前显示条数
-			pageCount: 100, //后台返回的总数
-			callback: function(currentPage) {
-			//do something ...
-	}
-});
-		</script>
+		<script src="../js/jquery.js"></script>
+		<script src="../js/getinsert.js"></script>
 	</head>
 	<body>
 		<form name="userSearch" action="" method="">
@@ -57,7 +48,7 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td><input name="" type="checkbox" value=""/></td>
+<!-- 							<td><input name="" type="checkbox" value=""/></td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
@@ -67,12 +58,22 @@
 							<td>&nbsp;</td>
 							<td>&nbsp;</td>
 							<td><a href="userUpdate.html"><img src="../img/right/t02.png">修改</a>
-							<a href=""><img src="../img/right/t03.png">删除</a></td>
+							<a href=""><img src="../img/right/t03.png">删除</a></td> -->
 						</tr>
 					</tbody>
 				</table>
 				<div id="page">
-				
+				<ul class="pagination">
+					<li><a href="#">«</a></li>
+					<li><a class="active"  href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">»</a></li>
+					</ul>
 				</div>
 		</div>	
 	</body>
